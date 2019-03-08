@@ -53,7 +53,7 @@ namespace ConsoleApp.Connectors
                     btnFind.Click();
                 }
                 
-                var resultadosComplementares = browser.Div(Find.ByClass(p => p.Contains("kno-ecr-pt kno-fb-ctx gsmt")));
+                var resultadosComplementares = browser.Div(Find.ByClass(p => p.Contains("kno-ecr-pt kno-fb-ctx")));
 
                 if (resultadosComplementares.Exists)
                 {
